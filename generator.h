@@ -110,6 +110,9 @@ public:
     /// Returns all global enums found by APIExtractor
     AbstractMetaEnumList globalEnums() const;
 
+    /// Returns all global fields found by APIExtractor
+    AbstractMetaFieldList globalFields() const;
+
     /// Returns all primitive types found by APIExtractor
     QList<const PrimitiveTypeEntry*> primitiveTypes() const;
 

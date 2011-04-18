@@ -163,6 +163,11 @@ AbstractMetaEnumList Generator::globalEnums() const
     return m_d->apiextractor->globalEnums();
 }
 
+AbstractMetaFieldList Generator::globalFields() const
+{
+    return m_d->apiextractor->globalFields();
+}
+
 QList<const PrimitiveTypeEntry*> Generator::primitiveTypes() const
 {
     return m_d->apiextractor->primitiveTypes();
